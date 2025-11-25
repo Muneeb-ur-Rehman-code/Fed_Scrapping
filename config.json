@@ -1,0 +1,27 @@
+{
+  "scraper_settings": {
+    "headless_mode":true,
+    "debug_mode": false,
+    "output_dir": "data",
+    "csv_output": true,
+    "excel_output": true
+  },
+  "retry_settings": {
+    "max_retries": 3,
+    "retry_delay_min": 2,
+    "retry_delay_max": 4
+  },
+  "delays": {
+    "between_papers_min": 0.5,
+    "between_papers_max": 1.5,
+    "between_years_min": 3,
+    "between_years_max": 5,
+    "after_click_min": 1,
+    "after_click_max": 2
+  },
+  "author_matching": {
+    "auto_match_threshold": 90,
+    "review_threshold_min": 80,
+    "review_threshold_max": 90
+  }
+}
